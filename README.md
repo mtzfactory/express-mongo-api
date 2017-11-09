@@ -31,7 +31,7 @@ Para instalar este proyecto:
 
 ### POSTMAN
 
-Para comprobar que el servidor funciona correctamen, puedes importar a *Postman* el archivo que se encuentra en la carpeta con el mismo nombre; este archivo tiene configurado las diferentes llamadas a la API.
+Para comprobar que el servidor funciona correctamente, puedes importar a *Postman* el archivo que se encuentra en la carpeta con el mismo nombre; este archivo tiene configurado las diferentes llamadas a la API.
 
 ![imagen-1](img/image-1.png)
 
