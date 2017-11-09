@@ -1,0 +1,264 @@
+{
+	"variables": [],
+	"info": {
+		"name": "mongodb",
+		"_postman_id": "db599ddd-d7f2-118f-dbcd-b9f19c318b74",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/restaurants",
+			"request": {
+				"url": "localhost:3001/api/restaurants",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants/40363093",
+			"request": {
+				"url": "localhost:3001/api/restaurants/40363093",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants?show",
+			"request": {
+				"url": {
+					"raw": "localhost:3001/api/restaurants?show=borough",
+					"auth": {},
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"restaurants"
+					],
+					"query": [
+						{
+							"key": "show",
+							"value": "borough",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants?hide",
+			"request": {
+				"url": {
+					"raw": "localhost:3001/api/restaurants?hide=borough",
+					"auth": {},
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"restaurants"
+					],
+					"query": [
+						{
+							"key": "hide",
+							"value": "borough",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants/cuisine/Bakery",
+			"request": {
+				"url": "localhost:3001/api/restaurants/cuisine/Bakery",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants/borough/Bronx",
+			"request": {
+				"url": {
+					"raw": "localhost:3001/api/restaurants/borough/Bronx?show=restaurant_id",
+					"auth": {},
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"restaurants",
+						"borough",
+						"Bronx"
+					],
+					"query": [
+						{
+							"key": "show",
+							"value": "restaurant_id",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants/borough/Bronx?page=1&limit=2&show=restaurant_id",
+			"request": {
+				"url": {
+					"raw": "localhost:3001/api/restaurants/borough/Bronx?page=1&limit=2&show=restaurant_id,borough",
+					"auth": {},
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"restaurants",
+						"borough",
+						"Bronx"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "limit",
+							"value": "2",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "show",
+							"value": "restaurant_id,borough",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants/borough/not/Bronx?show=restaurant_id",
+			"request": {
+				"url": {
+					"raw": "localhost:3001/api/restaurants/borough/not/Bronx?show=restaurant_id,borough&limit=15",
+					"auth": {},
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"restaurants",
+						"borough",
+						"not",
+						"Bronx"
+					],
+					"query": [
+						{
+							"key": "show",
+							"value": "restaurant_id,borough",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "limit",
+							"value": "15",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "api/restaurants/40363093/around/5",
+			"request": {
+				"url": {
+					"raw": "localhost:3001/api/restaurants/40363093/around/1?limit=3&page=2",
+					"auth": {},
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"restaurants",
+						"40363093",
+						"around",
+						"1"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "3",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "page",
+							"value": "2",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
