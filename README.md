@@ -29,7 +29,12 @@ Para instalar este proyecto:
     $ npm start
 ```
 
+### POSTMAN
+
+Para comprobar que el servidor funciona correctamen, puedes importar a *Postman* el archivo que se encuentra en la carpeta con el mismo nombre; este archivo tiene configurado las diferentes llamadas a la API.
 [import-data]: https://docs.mongodb.com/getting-started/shell/import-data/
+
+Ejemplo de uso:
 [geospatial-queries]: https://docs.mongodb.com/manual/geospatial-queries/
 
 ![imagen-1](img/image-1.png)
