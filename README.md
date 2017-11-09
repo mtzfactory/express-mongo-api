@@ -10,7 +10,7 @@
 Pequeña API de consultas a una base de datos MongoDB.
 
 ### CONFIGURACION PREVIA.
-Sigue las [instrucciones][import-data] propias de MongoDB para importar el JSON con los datos de restaurantes.
+Sigue las [instrucciones][import-data] propias de MongoDB para importar el JSON con los datos de _restaurantes_.
 
 Una vez importados, recuerda que para hacer [consultas geo-referencidas][geospatial-queries] debes indicar el campo que contiene las coordenadas, tan sencillo como ejecutar el siguiente comando en la tabla _restaurants_:
 
