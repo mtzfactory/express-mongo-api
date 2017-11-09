@@ -32,13 +32,12 @@ Para instalar este proyecto:
 ### POSTMAN
 
 Para comprobar que el servidor funciona correctamen, puedes importar a *Postman* el archivo que se encuentra en la carpeta con el mismo nombre; este archivo tiene configurado las diferentes llamadas a la API.
-[import-data]: https://docs.mongodb.com/getting-started/shell/import-data/
-
-Ejemplo de uso:
-[geospatial-queries]: https://docs.mongodb.com/manual/geospatial-queries/
-
 ![imagen-1](img/image-1.png)
 
+Ejemplo de uso:
 ![imagen-2](img/image-2.png)
+
+[import-data]: https://docs.mongodb.com/getting-started/shell/import-data/
+[geospatial-queries]: https://docs.mongodb.com/manual/geospatial-queries/
 
 #### SkylabCoders Academy - Full Stack Web Development Bootcamp
