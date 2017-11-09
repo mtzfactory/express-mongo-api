@@ -14,19 +14,19 @@ Sigue las [instrucciones][import-data] propias de MongoDB para importar el JSON 
 
 Una vez importados, recuerda que para hacer [consultas geo-referencidas][geospatial-queries] debes indicar el campo que contiene las coordenadas, tan sencillo como ejecutar el siguiente comando en la tabla _restaurants_:
 
-    ```javascript
+```javascript
     db.restaurants.ensureIndex({ "address.coord": "2dsphere" })
-    ```
+```
 
 ### INSTALACION.
 
 Para instalar este proyecto:
 
 ```bash
-$ git clone https://github.com/mtzfactory/express-mongo-api.git
-$ cd express-mongo-api
-$ npm install
-$ npm start
+    $ git clone https://github.com/mtzfactory/express-mongo-api.git
+    $ cd express-mongo-api
+    $ npm install
+    $ npm start
 ```
 
 [import-data]: https://docs.mongodb.com/getting-started/shell/import-data/
